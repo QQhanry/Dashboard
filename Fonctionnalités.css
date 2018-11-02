@@ -1,0 +1,19 @@
+table
+{
+    border-collapse: collapse;
+}
+td
+{
+    border: 1px solid black;
+}
+td:nth-of-type(2){
+  background-color: red;
+}
+div{
+  display:flex;
+  justify-content: center;
+}
+caption{
+  margin-bottom: 50px;
+  font-size:150%;
+}

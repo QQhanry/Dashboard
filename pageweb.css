@@ -1,0 +1,177 @@
+body{
+  margin: 0px;
+  padding: 0;
+}
+
+.meteo{
+  display: flex;
+  justify-content: center;
+
+  border-bottom: 0;
+
+}
+
+.meteo>img{
+  width: 10%;
+  height: 10%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #FF4212;
+}
+
+.container > button {
+    background-color: #FF4212;
+    border: none;
+    color: white;
+    padding: 2% 3%;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 4%;
+    box-shadow: 0 0;
+
+
+}
+
+.container >button:active{
+  background-color: #E88C11;
+  box-shadow: 0 0px ;
+  transform: translateY(0px);
+}
+
+.container > button:hover {
+    background-color: #E88C11;
+
+}
+
+button{
+  background-color: #333333; /* Green */
+  border: none;
+  color: white;
+  padding: 2% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50%;
+  cursor: pointer;
+  float: left;
+  border-radius: 6%;
+  box-shadow: 0 9px #999;
+  outline: none;
+}
+
+button:hover {background-color: #4F4F4F}
+
+button:active {
+  background-color: #4F4F4F;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.InfoC{
+  padding: 10%;
+  padding-top: 7%;
+  padding-bottom: 25%;
+  display: flex;
+  background-color: #0DB27D;
+
+  flex-direction: row;
+}
+
+
+
+.InfoC > div{
+  background-color: #f1f1f1;
+  width: 100%;
+  padding-bottom: 5%;
+  margin: 5%;
+  text-align: left;
+  line-height: 100%;
+  font-size: 200%;
+}
+
+div > p{
+  text-align: center;
+}
+
+
+.Gauche {
+  display: flex;
+  flex-direction: column;
+}
+
+.Gauche > div {
+  padding: 6%;
+}
+
+.Gauche > p{
+  font-family: cursive ;
+}
+
+
+
+.dataN{
+  display: none;
+}
+
+.dataW{
+  display: none;
+}
+
+
+p{
+  justify-content: center;
+}
+
+h1 {
+  z-index: 1;
+  text-align: center;
+  color: "blue";
+}
+
+
+
+.BefC>img {
+  position: absolute;
+  z-index: 2;
+  width: 25%;
+  height: 50%;
+}
+
+#goutte > img{
+  width: 35%;
+}
+
+#goutte > .canvas{
+  width: 35%;
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+.canvas {
+  position: absolute;
+  z-index: 1;
+  width: 25%;
+  height: 50%;
+  padding-right: 26%;
+}
+
+.image{
+  display: flex;
+  flex-direction: row;
+}
+
+.chartdiv {
+  width: 88%;
+  height: 400px;
+  background-color: #FFFFFF;
+  display: none;
+}
